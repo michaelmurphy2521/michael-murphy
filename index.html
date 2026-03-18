@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Murphy | Architecture Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">MM</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Experience</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="nav-mobile" id="nav-mobile">
+      <li><a href="#about">About</a></li>
+      <li><a href="#resume">Experience</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-content">
+      <span class="hero-discipline">Job Captain — Architecture</span>
+      <h1 class="hero-name">Michael Murphy</h1>
+      <p class="hero-sub">Designing buildings and spaces that are thoughtful, technical, and built to last.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="link-arrow">View Work →</a>
+        <a href="#contact" class="link-arrow">Get In Touch →</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint"><span>↓</span></div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <span class="section-label">01 — About</span>
+      <h2 class="section-title">Who I Am</h2>
+      <hr class="thin-rule" />
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="headshot.jpg" alt="Michael Murphy" style="width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center;" />
+        </div>
+        <div class="about-text">
+          <p>Hello! I'm <strong>Michael Murphy</strong>, a Job Captain at <strong>Bull Stockwell Allen</strong> based in <strong>San Francisco</strong>. I'm passionate about design that is rigorous, detailed, and grounded in the experience of space.</p>
+          <p>With a <strong>B.Arch from Cal Poly San Luis Obispo</strong> and experience managing project documentation and coordinating consultant teams, I enjoy working across all phases — from schematic design through construction administration.</p>
+          <p>My portfolio draws heavily from my student work, where I explored topics ranging from adaptive reuse and materiality to urban infill and housing typologies.</p>
+          <div class="skills">
+            <h3>Software &amp; Skills</h3>
+            <ul class="skills-list">
+              <li>Revit</li>
+              <li>AutoCAD</li>
+              <li>Rhino + Grasshopper</li>
+              <li>Adobe Creative Suite</li>
+              <li>SketchUp</li>
+              <li>Enscape / V-Ray</li>
+              <li>Bluebeam</li>
+              <li>Microsoft Office</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume / Experience -->
+  <section id="resume">
+    <div class="container">
+      <span class="section-label">02 — Experience</span>
+      <h2 class="section-title">Where I've Worked</h2>
+      <hr class="thin-rule" />
+      <div class="experience-table">
+
+        <div class="experience-row">
+          <span class="exp-year">2026 — Now</span>
+          <span class="exp-role">Job Captain</span>
+          <span class="exp-company">Bull Stockwell Allen</span>
+          <p class="exp-desc">Managing project documentation and consultant coordination across multiple project types. Responsible for producing and coordinating construction documents, responding to RFIs, and supporting construction administration.</p>
+        </div>
+
+        <div class="experience-row">
+          <span class="exp-year">2025</span>
+          <span class="exp-role">Architectural Designer</span>
+          <span class="exp-company">Bull Stockwell Allen</span>
+          <p class="exp-desc">Contributed to design development and construction documentation on institutional and mixed-use projects. Developed Revit models and coordinated with structural and MEP consultants.</p>
+        </div>
+
+        <div class="experience-row">
+          <span class="exp-year">2023 — 2024</span>
+          <span class="exp-role">Architecture Intern</span>
+          <span class="exp-company">Bull Stockwell Allen</span>
+          <p class="exp-desc">Assisted with schematic design, renderings, and client presentations. Supported senior staff on permit submittal packages and code research.</p>
+        </div>
+
+        <div class="experience-row">
+          <span class="exp-year">2022 — 2025</span>
+          <span class="exp-role">B.Arch</span>
+          <span class="exp-company">Cal Poly San Luis Obispo</span>
+          <p class="exp-desc">Studio-based architecture program with focus on design methods, structures, environmental systems, and professional practice. Graduated Summa Cum Laude, 2025.</p>
+        </div>
+
+      </div>
+      <div class="resume-download">
+        <a href="#" class="link-arrow">Download Resume →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <span class="section-label">03 — Work</span>
+      <h2 class="section-title">Selected Work</h2>
+      <hr class="thin-rule" />
+    </div>
+    <div class="projects-masonry">
+
+      <div class="project-item">
+        <img src="Living in the Gap/model images/DSC_1200.jpg" alt="Living in the Gap — thesis project" style="width:100%;height:400px;object-fit:cover;object-position:center;display:block;" />
+        <div class="project-caption">
+          <div class="project-caption-header">
+            <span class="project-num">01</span>
+            <hr class="caption-rule" />
+          </div>
+          <h3 class="project-title">Living in the Gap: Ecological Succession at the edge of Ownership</h3>
+          <p class="project-desc">A B.Arch thesis reimagining suburban maintenance as a form of ecological design. A modular wall system at the property line cultivates temporal, multispecies landscapes through succession rather than control.</p>
+          <span class="project-thesis-meta">B.Arch Thesis · 2024–2025 · Advisor: Brian Osborn</span>
+          <a href="living-in-the-gap.html" class="link-arrow">View Project →</a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <img src="Thesis Show/hero image.png" alt="See What Is Seen — Studio 09 thesis show" style="width:100%;height:auto;display:block;" />
+        <div class="project-caption">
+          <div class="project-caption-header">
+            <span class="project-num">02</span>
+            <hr class="caption-rule" />
+          </div>
+          <h3 class="project-title">See What Is Seen: A Studio 09 Thesis Show</h3>
+          <p class="project-desc">Content coming soon.</p>
+          <span class="project-thesis-meta">B.Arch Thesis Show · 2024–2025 · Advisor: Brian Osborn</span>
+          <a href="thesis-show.html" class="link-arrow">View Project →</a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img-placeholder"></div>
+        <div class="project-caption">
+          <div class="project-caption-header">
+            <span class="project-num">03</span>
+            <hr class="caption-rule" />
+          </div>
+          <h3 class="project-title">Student Project 03</h3>
+          <p class="project-desc">A brief description of the project — its program, site, conceptual approach, and key design moves. Replace with your actual project description.</p>
+          <a href="#" class="link-arrow">View Project →</a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img-placeholder project-img--tall"></div>
+        <div class="project-caption">
+          <div class="project-caption-header">
+            <span class="project-num">04</span>
+            <hr class="caption-rule" />
+          </div>
+          <h3 class="project-title">Student Project 04</h3>
+          <p class="project-desc">A brief description of the project — its program, site, conceptual approach, and key design moves. Replace with your actual project description.</p>
+          <a href="#" class="link-arrow">View Project →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <span class="section-label">04 — Contact</span>
+      <h2 class="section-title">Get In Touch</h2>
+      <hr class="thin-rule" />
+      <div class="contact-minimal">
+        <div class="contact-email-block">
+          <a href="mailto:michael.murphy2521@gmail.com" class="contact-email-link">michael.murphy2521@gmail.com</a>
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/michael-murphy-67b598152" target="_blank" rel="noopener" class="link-arrow">LinkedIn →</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="NAME" required />
+            <span class="form-error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="EMAIL" required />
+            <span class="form-error" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" placeholder="MESSAGE" required></textarea>
+            <span class="form-error" id="message-error"></span>
+          </div>
+          <button type="submit" class="link-arrow submit-btn">Send →</button>
+          <p class="form-success" id="form-success">Thanks! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <span>© 2026 Michael Murphy</span>
+      <span>Designed &amp; built by hand</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

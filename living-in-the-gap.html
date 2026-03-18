@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Living in the Gap | Michael Murphy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Page-specific carousel arrow overrides — bare arrows, halftone when disabled */
+    .img-carousel .carousel-prev,
+    .img-carousel .carousel-next {
+      color: #000;
+      background: none;
+      border: none;
+    }
+
+    .img-carousel .carousel-prev:hover,
+    .img-carousel .carousel-next:hover {
+      background: none;
+      border: none;
+      color: #000;
+    }
+
+    .img-carousel .carousel-prev:disabled,
+    .img-carousel .carousel-next:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html#hero" class="nav-logo">MM</a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#resume">Experience</a></li>
+        <li><a href="index.html#projects">Work</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <button id="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="nav-mobile" id="nav-mobile">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#resume">Experience</a></li>
+      <li><a href="index.html#projects">Work</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Image -->
+  <img
+    src="Living in the Gap/model images/DSC_1203.jpg"
+    alt="Living in the Gap — thesis project hero"
+    class="project-hero-img"
+  />
+
+  <!-- Project Header -->
+  <div class="container project-detail-header">
+    <h1 class="section-title">Living in the Gap: Ecological Succession at the edge of Ownership</h1>
+    <p class="project-meta">B.Arch Thesis &nbsp;·&nbsp; 2024–2025 &nbsp;·&nbsp; Advisor: Brian Osborn &nbsp;·&nbsp; Cal Poly San Luis Obispo</p>
+    <hr class="thin-rule" />
+  </div>
+
+  <!-- Synopsis -->
+  <div class="container">
+    <div class="project-body">
+      <p>Humanity has always maintained its environment, but never with such precision, scale, or ecological consequence as today. From leaf blowers to irrigation systems, our tools sustain modern life while quietly reshaping the ecosystems around us. <em>Living in the Gap</em> reframes maintenance — the most mundane of human practices — as a form of design with profound ecological agency.</p>
+
+      <p>This thesis proposes a theory of ecological maintenance: a framework in which everyday tools and rituals are reimagined to cultivate temporal, multispecies landscapes. Rather than resist the entanglement of human care and nonhuman life, the project asks what would happen if the systems we use to preserve order could also scaffold decay, habitat, and regeneration.</p>
+
+      <p>Drawing on Peter Del Tredici's concept of novel ecosystems, Anna Tsing's multispecies world-making, Richard Forman's patch-corridor-matrix theory, and Joan Nassauer's cues to care, the research traces how suburban maintenance practices — rooted in the ideology of neatness established by postwar developments like Levittown — suppress biodiversity and enforce ecological fragmentation. The site, Greenwood Meadows in Warren Township, New Jersey, sits directly between two Conservation Focal Areas, making the ecological cost of suburban monoculture viscerally legible.</p>
+
+      <p>The design intervention operates at the property line — reimagining this boundary not as a hard division of ownership but as an ecological interface. A modular wall system built from four natural materials — dry-stacked fieldstone, rammed earth, straw, and wood (both raw and charred using the Shou Sugi Ban method) — is placed along these edges. Each material decays at a different rate, creating a temporal gradient that supports distinct communities of flora and fauna across varying stages of succession. A clean-lined wooden frame holds these materials, acting as a cultural permission slip — a legible cue to care that makes ecological messiness acceptable within the suburban aesthetic.</p>
+
+      <p>Over time, the wall transforms. Straw composts into substrate for fungi and seed germination. Rammed earth weathers into microhabitat for moss and amphibians. Stone joints widen and host ferns. Charred shingles shed fragments that seed the ground with stable carbon. The frame itself becomes scaffold for nesting birds, threading vines, and colonizing lichen. At the scale of the community, these individual walls stitch together into continuous ecological corridors — reconnecting the fragmented landscape and replacing isolated, aestheticized care with shared, durational stewardship.</p>
+
+      <p><em>Living in the Gap</em> challenges the assumption that care must look like control, and proposes instead that maintenance can become a collaborative, multispecies practice — one that replaces permanence with succession, property with reciprocity, and monoculture with complexity.</p>
+    </div>
+  </div>
+
+  <!-- Research Images -->
+  <div class="research-images">
+    <img src="Living in the Gap/research/1.jpg" alt="Research image 1" />
+    <img src="Living in the Gap/research/2.jpg" alt="Research image 2" />
+    <img src="Living in the Gap/research/3.jpg" alt="Research image 3" />
+    <img src="Living in the Gap/research/4.jpg" alt="Research image 4" />
+    <img src="Living in the Gap/research/5.jpg" alt="Research image 5" />
+  </div>
+
+  <!-- Axon Carousel -->
+  <div class="img-carousel">
+    <div class="carousel-track">
+      <img src="Living in the Gap/axon/1.jpg" alt="Axon diagram 1" class="carousel-slide active" />
+      <img src="Living in the Gap/axon/2.jpg" alt="Axon diagram 2" class="carousel-slide" />
+      <img src="Living in the Gap/axon/3.jpg" alt="Axon diagram 3" class="carousel-slide" />
+      <img src="Living in the Gap/axon/4.jpg" alt="Axon diagram 4" class="carousel-slide" />
+    </div>
+    <button class="carousel-prev" aria-label="Previous">&#8592;</button>
+    <button class="carousel-next" aria-label="Next">&#8594;</button>
+  </div>
+
+  <!-- Image Gallery -->
+  <div class="project-gallery">
+    <img src="Living in the Gap/model images/DSC_1200.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1203.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1204.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1205.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1207.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1213.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1216.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1218.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1220.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1230.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1233.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1236.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1242.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1250.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1259.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1262.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1264.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1265.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1277.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1284.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1286.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1294.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1296.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1297.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1301.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1304.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1306.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1309.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1311.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1312.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1315.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1317.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1320.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1323.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1326.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1330.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1331.jpg" alt="Living in the Gap" />
+    <img src="Living in the Gap/model images/DSC_1333.jpg" alt="Living in the Gap" />
+  </div>
+
+  <!-- Back Link -->
+  <div class="project-back">
+    <a href="index.html#projects" class="link-arrow">← Back to Work</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <span>© 2026 Michael Murphy</span>
+      <span>Designed &amp; built by hand</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
