@@ -17,13 +17,24 @@ const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       navLinks.forEach(link => {
-        link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`);
+        link.classList.toggle('active', link.dataset.scroll === entry.target.id);
       });
     }
   });
 }, { rootMargin: '-40% 0px -55% 0px' });
 
 sections.forEach(section => sectionObserver.observe(section));
+
+/* ===========================
+   Scroll intercept
+   =========================== */
+document.querySelectorAll('[data-scroll]').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.getElementById(link.dataset.scroll);
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
 
 /* ===========================
    Mobile menu
