@@ -184,8 +184,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 24px calc(80px + var(--nav-height));
+  justify-content: flex-start;
+  padding: calc(var(--nav-height) + 200px) 24px 80px;
   position: relative;
   max-width: 1100px;
   margin: 0 auto;
@@ -585,7 +585,8 @@ footer span {
   section { padding: 100px 0; }
 
   #hero {
-    padding-bottom: calc(60px + var(--nav-height));
+    padding-top: calc(var(--nav-height) + 120px);
+    padding-bottom: 60px;
   }
 
   .projects-masonry { grid-template-columns: 1fr; }
